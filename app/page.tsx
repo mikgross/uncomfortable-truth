@@ -1,4 +1,5 @@
 import { getAllCategories } from "@/lib/api";
+import Link from "next/link";
 
 export default function Home() {
   const categories = getAllCategories();
@@ -27,9 +28,9 @@ export default function Home() {
         <h2 className="mb-5 text-xl">Categories</h2>
         <div className="flex flex-wrap">
           {categories.map((category) => (
-            <div key={category.slug} className={classeNames.categories}>
-              {category.slug}
-            </div>
+            <Link href={`/category/${category.slug}`} key={category.slug}>
+              <div className={classeNames.categories}>{category.slug}</div>
+            </Link>
           ))}
         </div>
       </div>
