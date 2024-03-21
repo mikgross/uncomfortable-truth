@@ -1,0 +1,37 @@
+{
+  "name": "Data Set 1",
+  "description": "This is a description of the data set",
+  "details": "This is a detailed description of the data set",
+  "submitted": "Thu Mar 21 2024 21:51:12 GMT+0100 (Central European Standard Time)",
+  "published": "Thu Mar 21 2024 21:51:12 GMT+0100 (Central European Standard Time)",
+  "submitters": [
+    {
+      "name": "John Doe",
+      "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+      "githubId": ""
+    },
+    {
+      "name": "Anne Doe",
+      "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+      "githubId": ""
+    }
+  ],
+  "reviewers": [
+    {
+      "name": "John Doe",
+      "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+      "githubId": ""
+    },
+    {
+      "name": "Anne Doe",
+      "avatar": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+      "githubId": ""
+    }
+  ],
+  "data": {
+    "chartType": "line",
+    "sources": [],
+    "labels": [],
+    "datasets": []
+  }
+}
