@@ -26,3 +26,23 @@ export function getAllCategories() {
   finalCategories.sort((cat1, cat2) => cat1.slug.localeCompare(cat2.slug));
   return finalCategories;
 }
+
+export function getPartialData(category: string) {
+  const fullPathDir = join(dataDir, `/${category}`);
+  const files = fs.readdirSync(fullPathDir);
+  const data = files.map((file) => {
+    const fullPath = join(fullPathDir, file);
+    const content = fs.readFileSync(fullPath, "utf8");
+    const jsonContent = JSON.parse(content);
+    jsonContent.slug = file.replace(/\.json$/, "");
+    return { slug: jsonContent.slug, name: jsonContent.name };
+  });
+  return data;
+}
+
+export function getDataFile(category: string, dataset: string) {
+  const fullPath = join(dataDir, `/${category}/${dataset}.json`);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const jsonContent = JSON.parse(fileContents);
+  return jsonContent;
+}
