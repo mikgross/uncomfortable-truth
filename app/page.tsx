@@ -1,35 +1,32 @@
 import { getAllCategories } from "@/lib/api";
+import { categories } from "@/lib/classes";
 import Link from "next/link";
 
 export default function Home() {
-  const categories = getAllCategories();
-  const classeNames = {
-    categories:
-      "h-[100px] w-[100px] flex justify-center items-center mr-4 mb-4 border-[rgb(var(--accent))] border-2 transition-all hover:cursor-pointer hover:scale-105 text-sm text-center uppercase text-[rgb(var(--accent))] active:scale-100 ",
-  };
+  const data = getAllCategories();
   return (
-    <main className="px-[15%]">
-      <div className="pt-20 text-center">
-        <h1 className="text-4xl mb-6 uppercase">Uncomfortable Truth</h1>
-        <div className="text-lg">
+    <main>
+      <div className="text-center mb-6">
+        <h1>{"Facts Spreader"}</h1>
+        <div className="text-left">
           <p>
-            A website sharing data gathered via open source contributions and
-            peer reviewed by a committee of independent reviewers.
+            Our goal is to share data gathered via open source contributions in
+            a free and unbiased form. We peer review the data and associated
+            description via an independent committee of qualified reviewers. We
+            do not hide the truth, not even the uncomfortable ones. We believe
+            data should be available and widely distributed for anyone to see
+            and analyse. We present facts in the most unbiased way possible.
           </p>
-          <p>We will not hide truth, not even the uncomfortable one.</p>
-          <p>
-            We believe data should be available and widely distributed for
-            anyone to see.
-          </p>
-          <p>We will try to present facts in the most unbiased way possible.</p>
         </div>
       </div>
-      <div className="pt-20 text-left">
-        <h2 className="mb-5 text-xl">Categories</h2>
-        <div className="flex flex-wrap">
-          {categories.map((category) => (
+      <div className="text-left">
+        <h2>Categories</h2>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {data.map((category) => (
             <Link href={`/category/${category.slug}`} key={category.slug}>
-              <div className={classeNames.categories}>{category.slug}</div>
+              <div className="h-[100px] flex justify-center items-center border-[rgb(var(--accent))] border-2 transition-all hover:cursor-pointer hover:scale-105 text-sm text-center uppercase text-[rgb(var(--accent))] active:scale-100 ">
+                {category.slug}
+              </div>
             </Link>
           ))}
         </div>

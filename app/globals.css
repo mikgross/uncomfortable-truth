@@ -11,8 +11,36 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 225, 225, 225;
-    --background: 32, 32, 32;
+    --background: 17, 24, 39;
     --accent: 84, 255, 137;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply mb-4 text-5xl font-bold leading-none tracking-tight capitalize sm:text-6xl;
+  }
+  h2 {
+    @apply text-4xl font-bold mb-4 capitalize;
+  }
+  h3 {
+    @apply text-3xl font-bold capitalize;
+  }
+  h3 {
+    @apply text-xl font-bold capitalize;
+  }
+  p {
+    @apply text-lg font-normal text-gray-500 dark:text-gray-400;
+  }
+  main {
+    @apply px-[5%] md:px-[10%] xl:px-[20%];
+    @apply py-10 md:py-20;
+  }
+  ul {
+    @apply text-lg list-disc pl-4 font-normal text-gray-500 dark:text-gray-400;
+  }
+  li {
+    @apply text-lg font-normal text-gray-500 dark:text-gray-400;
   }
 }
 
