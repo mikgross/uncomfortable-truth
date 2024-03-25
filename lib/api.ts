@@ -59,6 +59,7 @@ export function getPartialData(category: string) {
         +dateComponentsB[1] - 1,
         +dateComponentsB[0]
       );
+
       return dateObjectB.getTime() - dateObjectA.getTime();
     });
   return data;
