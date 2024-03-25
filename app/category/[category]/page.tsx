@@ -1,5 +1,4 @@
 import { getPartialData } from "@/lib/api";
-import { categories } from "@/lib/classes";
 import Link from "next/link";
 
 export default function CategoryPage({ params }: any) {

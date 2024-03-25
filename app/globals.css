@@ -6,13 +6,15 @@
   --foreground-rgb: 32, 32, 32;
   --background: 255, 255, 255;
   --accent: 104, 84, 255;
+  --accent-sec: 76, 131, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 225, 225, 225;
     --background: 17, 24, 39;
-    --accent: 84, 255, 137;
+    --accent: 42, 250, 224;
+    --accent-sec: 76, 131, 255;
   }
 }
 
@@ -24,13 +26,13 @@
     @apply text-4xl font-bold mb-4 capitalize;
   }
   h3 {
-    @apply text-3xl font-bold capitalize;
+    @apply text-3xl font-bold capitalize mb-4;
   }
-  h3 {
-    @apply text-xl font-bold capitalize;
+  h4 {
+    @apply text-xl font-bold mb-4;
   }
   p {
-    @apply text-lg font-normal text-gray-500 dark:text-gray-400;
+    @apply text-lg font-normal text-gray-500 dark:text-gray-400 mb-4;
   }
   main {
     @apply px-[5%] md:px-[10%] xl:px-[20%];
@@ -41,6 +43,9 @@
   }
   li {
     @apply text-lg font-normal text-gray-500 dark:text-gray-400;
+  }
+  a {
+    @apply text-[rgb(var(--accent))] cursor-pointer;
   }
 }
 
