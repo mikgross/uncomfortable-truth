@@ -9,7 +9,7 @@ export default function DataPage({ params }: any) {
 
   return (
     <main>
-      <h2>{dataSet.name}</h2>
+      <h1>{dataSet.name}</h1>
       <div className="flex flex-row justify-between mb-4">
         <div>
           {dataSet.submitters.map((submitter: any, key: any) => (
@@ -18,8 +18,8 @@ export default function DataPage({ params }: any) {
                 <Image
                   className="rounded-full border-2 border-[rgb(var(--accent))]"
                   src={submitter.avatar}
-                  width={30}
-                  height={30}
+                  width={50}
+                  height={50}
                   alt="User's Avatar"
                 />
               </div>

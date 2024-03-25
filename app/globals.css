@@ -20,29 +20,29 @@
 
 @layer base {
   h1 {
-    @apply mb-4 text-5xl font-bold leading-none tracking-tight capitalize sm:text-6xl;
+    @apply mb-4 text-4xl font-bold leading-none tracking-tight capitalize sm:text-6xl;
   }
   h2 {
-    @apply text-4xl font-bold mb-4 capitalize;
+    @apply text-3xl font-bold mb-4 capitalize sm:text-4xl;
   }
   h3 {
-    @apply text-3xl font-bold capitalize mb-4;
+    @apply text-2xl font-bold capitalize mb-4 sm:text-3xl;
   }
   h4 {
-    @apply text-xl font-bold mb-4;
+    @apply text-lg font-bold mb-4 sm:text-xl;
   }
   p {
-    @apply text-lg font-normal text-gray-500 dark:text-gray-400 mb-4;
+    @apply text-base font-normal text-gray-500 dark:text-gray-400 mb-4 sm:text-lg;
   }
   main {
     @apply px-[5%] md:px-[10%] xl:px-[20%];
     @apply py-10 md:py-20;
   }
   ul {
-    @apply text-lg list-disc pl-4 font-normal text-gray-500 dark:text-gray-400;
+    @apply text-base list-disc pl-4 font-normal text-gray-500 dark:text-gray-400 sm:text-lg;
   }
   li {
-    @apply text-lg font-normal text-gray-500 dark:text-gray-400;
+    @apply text-base font-normal text-gray-500 dark:text-gray-400 sm:text-lg;
   }
   a {
     @apply text-[rgb(var(--accent))] cursor-pointer;
