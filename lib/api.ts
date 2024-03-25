@@ -36,7 +36,6 @@ export function getPartialData(category: string) {
       const content = fs.readFileSync(fullPath, "utf8");
       const jsonContent = JSON.parse(content);
       jsonContent.slug = file.replace(/\.json$/, "");
-      console.log(jsonContent);
       return {
         slug: jsonContent.slug,
         name: jsonContent.name,
@@ -46,7 +45,21 @@ export function getPartialData(category: string) {
       };
     })
     .sort((a, b) => {
-      return a.dateSubmitted - b.dateSubmitted;
+      const dateA = a.dateSubmitted as string;
+      const dateB = b.dateSubmitted as string;
+      const dateComponentsA = dateA.split("-");
+      const dateComponentsB = dateB.split("-");
+      const dateObjectA = new Date(
+        +dateComponentsA[2],
+        +dateComponentsA[1] - 1,
+        +dateComponentsA[0]
+      );
+      const dateObjectB = new Date(
+        +dateComponentsB[2],
+        +dateComponentsB[1] - 1,
+        +dateComponentsB[0]
+      );
+      return dateObjectB.getTime() - dateObjectA.getTime();
     });
   return data;
 }

@@ -17,11 +17,13 @@ export default function Home() {
       </div>
       <div className="text-left">
         <h2>Categories</h2>
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-4 mt-6">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {data.map((category) => (
             <Link href={`/category/${category.slug}`} key={category.slug}>
-              <div className="h-[80px] flex justify-center items-center bg-gradient-to-br from-[rgb(var(--accent))] to-[rgb(var(--accent-sec))] transition-all hover:cursor-pointer hover:scale-105 text-sm text-center  active:scale-100 rounded-xl text-[rgb(var(--background))]">
-                <h4 className="uppercase mb-0">{category.slug}</h4>
+              <div className="flex flex-col h-[50px] items-center justify-center border-2 dark:border-0 border-[rgb(var(--accent))] dark:bg-[rgb(var(--bg-contrast))] hover:cursor-pointer hover:rotate-1 text-sm text-center active:scale-100 rounded-xl overflow-hidden transition-all">
+                <h4 className="uppercase mb-0 text-[rgb(var(--foreground-rgb))]">
+                  {category.slug}
+                </h4>
               </div>
             </Link>
           ))}

@@ -7,6 +7,7 @@
   --background: 255, 255, 255;
   --accent: 104, 84, 255;
   --accent-sec: 76, 131, 255;
+  --bg-contrast: 244, 243, 253;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +16,7 @@
     --background: 17, 24, 39;
     --accent: 42, 250, 224;
     --accent-sec: 76, 131, 255;
+    --bg-contrast: 22, 38, 70;
   }
 }
 
@@ -45,7 +47,7 @@
     @apply text-base font-normal text-gray-500 dark:text-gray-400 sm:text-lg;
   }
   a {
-    @apply text-[rgb(var(--accent))] cursor-pointer;
+    @apply text-[rgb(var(--accent))];
   }
 }
 

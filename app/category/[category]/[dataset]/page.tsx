@@ -2,6 +2,20 @@ import Markdown from "react-markdown";
 import { getDataFile } from "@/lib/api";
 import ClientLineChart from "@/components/ClientLineChart";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const { category, dataset } = params;
+  const dataSet = getDataFile(category, dataset);
+  return {
+    title: `${
+      dataSet.name
+    } | ${category.toUpperCase()} | (Un)comfortable Truth`,
+    description: `Explore data present in the ${
+      dataSet.name
+    } data set. This data set is part of the ${category.toUpperCase()} category.`,
+  };
+}
 
 export default function DataPage({ params }: any) {
   const { category, dataset } = params;
@@ -27,7 +41,7 @@ export default function DataPage({ params }: any) {
             </div>
           ))}
         </div>
-        <div>{dataSet.submitted}</div>
+        <div className="flex items-center">{dataSet.submitted}</div>
       </div>
       <p>{dataSet.description}</p>
       <hr className="my-8" />
@@ -42,7 +56,7 @@ export default function DataPage({ params }: any) {
           />
         </div>
         <div>
-          <Markdown>{dataSet.details}</Markdown>
+          <Markdown skipHtml={false}>{dataSet.details}</Markdown>
         </div>
       </div>
     </main>
