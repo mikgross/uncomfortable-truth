@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 import SocialImage from "@/components/SocialImage";
 import Link from "next/link";
+import DataSetTopheader from "@/components/DataSetTopHeader";
+import DataSetSources from "@/components/DataSetSources";
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
   const { category, dataset } = params;
@@ -22,29 +24,23 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 export default function DataPage({ params }: any) {
   const { category, dataset } = params;
   const dataSet = getDataFile(category, dataset);
-
+  console.log(dataSet.data.sources);
   return (
     <main>
-      <h1>{dataSet.name}</h1>
-      <p>{dataSet.description}</p>
-      <hr className="my-8" />
+      <DataSetTopheader name={dataSet.name} desc={dataSet.description} />
       <div>
-        <div>
-          <ClientLineChart
-            data={dataSet.data.data}
-            xDensity={dataSet.data.density}
-            type={dataSet.data.type}
-            colors={dataSet.data.colors}
-            labels={{ x: dataSet.data.xAxis, y: dataSet.data.yAxis }}
-          />
-        </div>
+        <ClientLineChart
+          data={dataSet.data.data}
+          xDensity={dataSet.data.density}
+          type={dataSet.data.type}
+          colors={dataSet.data.colors}
+          labels={{ x: dataSet.data.xAxis, y: dataSet.data.yAxis }}
+        />
         <div className="mb-8">
           <Markdown skipHtml={false}>{dataSet.details}</Markdown>
         </div>
-        <div className="mb-8">
-          <hr className="mb-2" />
-          <h4>Sources</h4>
-        </div>
+        <hr className="mb-8" />
+        <DataSetSources sources={dataSet.data.sources} />
         <div className="flex items-center">
           <h4>Published the {dataSet.submitted} by</h4>
         </div>
