@@ -30,13 +30,24 @@ export function getAllCategories() {
 export function getPartialData(category: string) {
   const fullPathDir = join(dataDir, `/${category}`);
   const files = fs.readdirSync(fullPathDir);
-  const data = files.map((file) => {
-    const fullPath = join(fullPathDir, file);
-    const content = fs.readFileSync(fullPath, "utf8");
-    const jsonContent = JSON.parse(content);
-    jsonContent.slug = file.replace(/\.json$/, "");
-    return { slug: jsonContent.slug, name: jsonContent.name };
-  });
+  const data = files
+    .map((file) => {
+      const fullPath = join(fullPathDir, file);
+      const content = fs.readFileSync(fullPath, "utf8");
+      const jsonContent = JSON.parse(content);
+      jsonContent.slug = file.replace(/\.json$/, "");
+      console.log(jsonContent);
+      return {
+        slug: jsonContent.slug,
+        name: jsonContent.name,
+        desc: jsonContent.description,
+        submitters: jsonContent.submitters.map((sub: any) => sub.name),
+        dateSubmitted: jsonContent.submitted,
+      };
+    })
+    .sort((a, b) => {
+      return a.dateSubmitted - b.dateSubmitted;
+    });
   return data;
 }
 

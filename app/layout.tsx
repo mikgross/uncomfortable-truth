@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Uncomfortable Truth",
+  title: "(Un)comfortable Truth",
   description:
     "Sharing Data Gathered via Open Source Contributions for the world to see",
 };
