@@ -91,8 +91,28 @@
     "sources": [
       {
         "id": "1",
-        "author": "NOAA",
-        "link": "https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool"
+        "author": "NOAA NCDC",
+        "link": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/national/time-series",
+        "title": "Global Time Series",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series",
+        "dateAccessed": "25-03-2024",
+        "placePublication": "Washington (WA)",
+        "publisher": "NOAA",
+        "availableFrom": "Website",
+        "type": "Website",
+        "year": "updated April 14, 2005; cited April 7, 2020"
+      },
+      {
+        "id": "1",
+        "author": "Bisagni C, Mirandola, C.",
+        "date": "2005",
+        "titleJournal": "Journal of the American Helicopter Society 50",
+        "titleArticle": "Experimental and numerical investigation of crash behavior of composite helicopter cruciform elements",
+        "volumeIssueNumber": "1",
+        "pages": "107-116",
+        "url": "http://ieeexplore.ieee.org.ezproxy.bu.edu/stamp/stamp.jsp?tp=&arnumber=1204819",
+        "dateAccessed": "25-03-2024",
+        "type": "JournalArticle"
       }
     ],
     "xAxis": "Year",

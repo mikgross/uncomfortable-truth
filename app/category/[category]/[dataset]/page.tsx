@@ -24,7 +24,6 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 export default function DataPage({ params }: any) {
   const { category, dataset } = params;
   const dataSet = getDataFile(category, dataset);
-  console.log(dataSet.data.sources);
   return (
     <main>
       <DataSetTopheader name={dataSet.name} desc={dataSet.description} />
@@ -41,10 +40,9 @@ export default function DataPage({ params }: any) {
         </div>
         <hr className="mb-8" />
         <DataSetSources sources={dataSet.data.sources} />
-        <div className="flex items-center">
-          <h4>Published the {dataSet.submitted} by</h4>
-        </div>
-        <div className="flex flex-row mb-8">
+
+        <div className="flex flex-col mb-8">
+          <h4>Published {dataSet.submitted}</h4>
           <div className="flex flex-row">
             {dataSet.submitters.map((submitter: any, key: any) => (
               <div key={key} className="flex flex-row items-center mr-2">
@@ -83,7 +81,7 @@ export default function DataPage({ params }: any) {
           </div>
         </div>
         <div className="flex items-center">
-          <h4>Reviewed the {dataSet.published} by</h4>
+          <h4>Reviewed {dataSet.published}</h4>
         </div>
         <div className="flex flex-row mb-4">
           <div className="flex flex-row">
