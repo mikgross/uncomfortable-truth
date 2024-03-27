@@ -7,6 +7,14 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   return {
     title: `${category.toUpperCase()} | (Un)comfortable Truth`,
     description: `Explore data present in the ${category} category`,
+    openGraph: {
+      title: `${category.toUpperCase()} | (Un)comfortable Truth`,
+      description: `Explore data present in the ${category} category`,
+      type: "website",
+      url: "https://uc.mmpg.xyz",
+      images: ["https://uc.mmpg.xyz/og-image.jpg"],
+      siteName: "(Un)comfortable Truth",
+    },
   };
 }
 

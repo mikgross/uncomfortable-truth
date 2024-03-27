@@ -16,6 +16,18 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
     description: `Explore data present in the ${
       dataSet.name
     } data set. This data set is part of the ${category.toUpperCase()} category.`,
+    openGraph: {
+      title: `${
+        dataSet.name
+      } | ${category.toUpperCase()} | (Un)comfortable Truth`,
+      description: `Explore data present in the ${
+        dataSet.name
+      } data set. This data set is part of the ${category.toUpperCase()} category.`,
+      type: "website",
+      url: "https://uc.mmpg.xyz",
+      images: ["https://uc.mmpg.xyz/og-image.jpg"],
+      siteName: "(Un)comfortable Truth",
+    },
   };
 }
 
