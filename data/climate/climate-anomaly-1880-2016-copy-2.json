@@ -1,7 +1,7 @@
 {
   "name": "Global Land and Ocean February Average Temperature Anomalies",
   "description": "Global Land and Ocean February Average Temperature Anomalies from 1850 to 2024.",
-  "details": "# Global Temperature Anomalies\n\n## Climate at a Glance: Time Series - Global\n\nOne of the most obvious signals of climate change is the rise in global average temperature over the past several decades. Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century shows if conditions are warmer or cooler than the past.\n#### Where do these data come from?\n\nTemperature data come from manual and automated weather stations. Quality-checked data become part of the Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS). A combined global land and ocean temperature anomaly dataset was created from these resources.\n\nThe Smith and Reynolds blended land and ocean data sets is used to produce the Global time series. Monthly average temperature anomalies are plotted on a grid across land and ocean surfaces. An average global temperature anomaly is then created from the complete grid.\n\nThis is the [link to the original article](https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool)",
+  "details": "# Global Temperature Anomalies\n\n## Climate at a Glance: Time Series - Global\n\nOne of the most obvious signals of climate change is the rise in global average temperature over the past several decades. Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century shows if conditions are warmer or cooler than the past.\n#### Where do these data come from?\n\nTemperature data come from manual and automated weather stations. Quality-checked data become part of the Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS). A combined global land and ocean temperature anomaly dataset was created from these resources.\n\n![Drag Racing](https://media.istockphoto.com/id/1213724568/photo/micorscope-is-used-by-researcher-who-use-her-hands-holding-and-adjusting.jpg?s=612x612&w=0&k=20&c=dWAiuptYNEC8Re2EuyjlX1KfFFcTg97d70Qyjy3Cjck=#center)\n\nThe Smith and Reynolds blended land and ocean data sets is used to produce the Global time series. Monthly average temperature anomalies are plotted on a grid across land and ocean surfaces. An average global temperature anomaly is then created from the complete grid.\n\nThis is the [link to the original article](https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool)",
   "submitted": "29-03-2022",
   "published": "25-03-2024",
   "reviewers": [
@@ -33,6 +33,32 @@
     }
   ],
   "submitters": [
+    {
+      "name": "Mikael Gross",
+      "avatar": "https://gravatar.com/avatar/2ed2f3203d741dd3c808d7af4c3a2527864262d981a62254c0ee249014f46fb6?size=512",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/mikaelgross/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/mikgross195357"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/mikgross"
+        },
+        {
+          "type": "bento",
+          "url": "https://bento.me/mikael-gross"
+        },
+        {
+          "type": "website",
+          "url": "https://mikaelgross.com"
+        }
+      ]
+    },
     {
       "name": "Mikael Gross",
       "avatar": "https://gravatar.com/avatar/2ed2f3203d741dd3c808d7af4c3a2527864262d981a62254c0ee249014f46fb6?size=512",

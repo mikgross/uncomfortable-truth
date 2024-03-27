@@ -1,13 +1,7 @@
 "use client";
 import { LineChart, BarChart } from "@mmpg-soft/charts";
 
-export default function ClientLineChart({
-  data,
-  xDensity,
-  type,
-  colors,
-  labels,
-}: any) {
+export default function Chart({ data, xDensity, type, colors, labels }: any) {
   return type === "line" ? (
     <LineChart data={data} xValuesDesnity={xDensity} animate={false} />
   ) : (

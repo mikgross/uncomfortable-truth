@@ -62,3 +62,10 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Markdown tricks */
+/* We use this trick to center image that have URL ending up with #center: https://stackoverflow.com/a/43691451/9028176 */
+img[src*="#center"] {
+  display: block;
+  margin: auto;
+}
