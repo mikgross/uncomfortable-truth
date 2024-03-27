@@ -9,9 +9,8 @@ export default function Home() {
         <h1>{"(Un)comfortable Truth"}</h1>
         <div className="text-left">
           <p>
-            Our goal is to share data gathered via open source contributions for
-            free. We believe data should be available and distributed for anyone
-            to see and analyse.
+            Open sourced data repository for the curious minds. Explore the
+            articles, contribute with your own ones or review existing articles.
           </p>
         </div>
       </div>
