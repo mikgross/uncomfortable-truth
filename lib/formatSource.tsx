@@ -2,6 +2,9 @@ import {
   formatWebSource,
   formatJournalArticleSource,
   formatBookSource,
+  formatBookPartSource,
+  formatConferenceproceedingsSource,
+  formatConferencePapersSource,
 } from "@mmpg-soft/sci-sources";
 
 export function formatSource(source: any, key: number): string {
@@ -16,12 +19,14 @@ export function formatSource(source: any, key: number): string {
     case "Book":
       citationString = formatBookSource(source, key);
       break;
-    // todo: finish those cases
     case "BookPart":
+      citationString = formatBookPartSource(source, key);
       break;
     case "ConferenceProceeding":
+      citationString = formatConferenceproceedingsSource(source, key);
       break;
     case "ConferencePaper":
+      citationString = formatConferencePapersSource(source, key);
       break;
     default:
       citationString = "";
