@@ -6,6 +6,18 @@
   "published": "25-03-2024",
   "reviewers": [
     {
+      "name": "John Doe",
+      "avatar": "https://media.istockphoto.com/id/685132245/photo/mature-businessman-smiling-over-white-background.jpg?s=612x612&w=0&k=20&c=OJk6U-oCZ31F3TGmarAAg2jVli8ZWTagAcF4P-kNIqA=",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://en.wikipedia.org/wiki/John_Doe"
+        }
+      ]
+    }
+  ],
+  "submitters": [
+    {
       "name": "Mikael Gross",
       "avatar": "https://gravatar.com/avatar/2ed2f3203d741dd3c808d7af4c3a2527864262d981a62254c0ee249014f46fb6?size=512",
       "links": [
@@ -28,18 +40,6 @@
         {
           "type": "website",
           "url": "https://mikaelgross.com"
-        }
-      ]
-    }
-  ],
-  "submitters": [
-    {
-      "name": "John Doe",
-      "avatar": "https://media.istockphoto.com/id/685132245/photo/mature-businessman-smiling-over-white-background.jpg?s=612x612&w=0&k=20&c=OJk6U-oCZ31F3TGmarAAg2jVli8ZWTagAcF4P-kNIqA=",
-      "links": [
-        {
-          "type": "website",
-          "url": "https://en.wikipedia.org/wiki/John_Doe"
         }
       ]
     }
