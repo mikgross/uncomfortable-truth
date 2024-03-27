@@ -1,0 +1,36 @@
+name: Deploy Prod
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy code to production
+    runs-on: ubuntu-latest
+    env:
+      IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.GCP_APP_NAME_PROD }}
+      CREDS: "${{ secrets.GCP_CREDENTIALS }}"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - id: "auth"
+        uses: "google-github-actions/auth@v1"
+        with:
+          credentials_json: "${{ secrets.GCP_CREDENTIALS }}"
+
+      - name: Login
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker
+        run: gcloud auth configure-docker
+
+      - name: Build Docker image
+        run: docker build --build-arg creds="$CREDS" . -f Dockerfile -t $IMAGE_NAME
+
+      - name: Push Docker image
+        run: docker push $IMAGE_NAME
+
+      - name: Deploy Docker image
+        run: gcloud run deploy ${{ secrets.GCP_APP_NAME_PROD }} --image $IMAGE_NAME --region europe-west1 --platform managed --port 8080 --allow-unauthenticated
