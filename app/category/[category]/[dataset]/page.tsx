@@ -1,12 +1,8 @@
 import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
 import Markdown from "react-markdown";
 import { getDataFile } from "@/lib/api";
-import SocialImage from "@/components/SocialImage";
 import DataSetTopheader from "@/components/DataSetTopHeader";
 import DataSetSources from "@/components/DataSetSources";
-import DataSetPublishers from "@/components/DataSetPeople";
 import Chart from "@/components/Chart";
 import DataSetPeople from "@/components/DataSetPeople";
 
@@ -51,6 +47,8 @@ export default function DataPage({ params }: any) {
           publishers={dataSet.reviewers}
           submitted={dataSet.published}
           title="Reviewed"
+          body="This dataset has not been reviewed yet. Be careful when using its data or reading its information."
+          titleMessage="No reviewers for this dataset."
         />
       </div>
     </main>

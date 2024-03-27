@@ -1,15 +1,20 @@
 {
-  "name": "Global Land and Ocean February Average Temperature Anomalies",
-  "description": "Global Land and Ocean February Average Temperature Anomalies from 1850 to 2024.",
-  "details": "# Global Temperature Anomalies\n\n## Climate at a Glance: Time Series - Global\n\nOne of the most obvious signals of climate change is the rise in global average temperature over the past several decades. Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century shows if conditions are warmer or cooler than the past.\n#### Where do these data come from?\n\nTemperature data come from manual and automated weather stations. Quality-checked data become part of the Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS). A combined global land and ocean temperature anomaly dataset was created from these resources.\n\nThe Smith and Reynolds blended land and ocean data sets is used to produce the Global time series. Monthly average temperature anomalies are plotted on a grid across land and ocean surfaces. An average global temperature anomaly is then created from the complete grid.\n\nThis is the [link to the original article](https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool)",
-  "submitted": "22-03-2024",
-  "published": "25-03-2024",
-
+  "name": "No source and no reviews example",
+  "description": "This article showcases a simple historical barchart graphic of global temperature anomalies over the years. A short description or analysis, a few sources, publishers and reviewers.",
+  "details": "# Global Temperature Anomalies\n\n## Climate at a Glance: Time Series - Global\n\nOne of the most obvious signals of climate change is the rise in global average temperature over the past several decades. Comparing the average temperature of land, ocean, or land and ocean combined for any month or multi-month period to the average temperature for the same period over the 20th century shows if conditions are warmer or cooler than the past.\n#### Where do these data come from?\n\nTemperature data come from manual and automated weather stations. Quality-checked data become part of the Global Historical Climatology Network-Monthly (GHCN-M) data set and International Comprehensive Ocean-Atmosphere Data Set (ICOADS). A combined global land and ocean temperature anomaly dataset was created from these resources.\n\n![Drag Racing](https://media.istockphoto.com/id/1213724568/photo/micorscope-is-used-by-researcher-who-use-her-hands-holding-and-adjusting.jpg?s=612x612&w=0&k=20&c=dWAiuptYNEC8Re2EuyjlX1KfFFcTg97d70Qyjy3Cjck=#center)\n\nThe Smith and Reynolds blended land and ocean data sets is used to produce the Global time series. Monthly average temperature anomalies are plotted on a grid across land and ocean surfaces. An average global temperature anomaly is then created from the complete grid.\n\nThis is the [link to the original article](https://www.climate.gov/maps-data/dataset/global-temperature-anomalies-graphing-tool)",
+  "submitted": "29-03-2022",
+  "published": "",
+  "reviewers": [],
   "submitters": [
     {
-      "name": "Mikael Gross",
-      "avatar": "https://gravatar.com/avatar/2ed2f3203d741dd3c808d7af4c3a2527864262d981a62254c0ee249014f46fb6?size=512",
-      "githubId": "mikgross"
+      "name": "John Doe",
+      "avatar": "https://media.istockphoto.com/id/685132245/photo/mature-businessman-smiling-over-white-background.jpg?s=612x612&w=0&k=20&c=OJk6U-oCZ31F3TGmarAAg2jVli8ZWTagAcF4P-kNIqA=",
+      "links": [
+        {
+          "type": "website",
+          "url": "https://en.wikipedia.org/wiki/John_Doe"
+        }
+      ]
     }
   ],
   "data": {
@@ -102,7 +107,7 @@
       { "xValue": "1929", "yValue": -0.4 },
       { "xValue": "1930", "yValue": -0.2 },
       { "xValue": "1931", "yValue": -0.1 },
-      { "xValue": "1932", "yValue": -0.2 },
+      { "xValue": "1932", "yValue": -4.2 },
       { "xValue": "1933", "yValue": -0.2 },
       { "xValue": "1934", "yValue": -0.0 },
       { "xValue": "1935", "yValue": 0.12 },

@@ -1,26 +1,10 @@
-import {
-  Books,
-  BooksPart,
-  ConferencePapers,
-  ConferenceProceedings,
-  JournalArticles,
-  Websites,
-} from "@/lib/interfaces";
-import DataSetSourcesNoSources from "./DataSetSourcesNoSources";
+import DangerMessage from "./DangerMessage";
 import { formatSource } from "@/lib/formatSource";
 
-interface Params {
-  sources: Array<
-    | Books
-    | BooksPart
-    | ConferenceProceedings
-    | ConferencePapers
-    | JournalArticles
-    | Websites
-  >;
-}
-
-export default function DataSetSources({ sources }: Params) {
+export default function DataSetSources({ sources }: any) {
+  const body =
+    "No verified sources have been provided for this dataset, please be careful when using this data.";
+  const title = "No sources";
   return (
     <div className="mb-8">
       <h4>Sources</h4>
@@ -32,7 +16,7 @@ export default function DataSetSources({ sources }: Params) {
           </div>
         );
       })}
-      {sources.length === 0 && <DataSetSourcesNoSources />}
+      {sources.length === 0 && <DangerMessage body={body} title={title} />}
     </div>
   );
 }
