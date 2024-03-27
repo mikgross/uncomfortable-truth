@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@mmpg-soft/charts": "^1.1.3",
-    "@mmpg-soft/sci-sources": "^1.0.2",
+    "@mmpg-soft/sci-sources": "^1.0.3",
     "d3": "^7.9.0",
     "next": "14.1.4",
     "react": "^18",
