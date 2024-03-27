@@ -55,7 +55,7 @@
     "density": 100,
     "colors": ["#4c83ff"],
     "data": [
-      [
+      
  {
   "xValue": "OECD Europe",
   "yValue": 0.069620302
@@ -3128,7 +3128,7 @@
   "xValue": "Poland",
   "yValue": 9.711023392
  }
-]
+
     ]
   }
 }
