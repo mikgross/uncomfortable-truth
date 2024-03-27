@@ -1,0 +1,3134 @@
+{
+  "name": "Quarterly Real GDP Growth: OECD Countries - 2023 Q4",
+  "description": "This data set presents Gross Domestic Product (GDP) and its main components according to the expenditure approach. Data is presented as growth rates. In the expenditure approach, the components of GDP are: final consumption expenditure of households and non-profit institutions serving households (NPISH) plus final consumption expenditure of General Government plus gross fixed capital formation (or investment) plus net trade (exports minus imports).",
+  "details": "# Quarterly real GDP growth - OECD countries - 2023 Q4\n\nThis data set presents Gross Domestic Product (GDP) and its main components according to the expenditure approach. Data is presented as growth rates. In the expenditure approach, the components of GDP are: final consumption expenditure of households and non-profit institutions serving households (NPISH) plus final consumption expenditure of General Government plus gross fixed capital formation (or investment) plus net trade (exports minus imports).",
+  "submitted": "",
+  "published": "25-03-2024",
+  "reviewers": [],
+  "submitters": [
+    {
+      "name": "Mikael Gross",
+      "avatar": "https://gravatar.com/avatar/2ed2f3203d741dd3c808d7af4c3a2527864262d981a62254c0ee249014f46fb6?size=512",
+      "links": [
+        {
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/mikaelgross/"
+        },
+        {
+          "type": "twitter",
+          "url": "https://twitter.com/mikgross195357"
+        },
+        {
+          "type": "github",
+          "url": "https://github.com/mikgross"
+        },
+        {
+          "type": "bento",
+          "url": "https://bento.me/mikael-gross"
+        },
+        {
+          "type": "website",
+          "url": "https://mikaelgross.com"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "chartType": "bar",
+    "sources": [
+      {
+        "id": "1",
+        "author": "OECD Org",
+        "link": "https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_NAMAIN1%40DF_QNA_EXPENDITURE_GROWTH_OECD&df[ag]=OECD.SDD.NAD&df[vs]=1.0&pd=%2C&dq=Q............&to[TIME_PERIOD]=false&lo=5&lom=LASTNPERIODS&ly[rw]=REF_AREA&ly[cl]=TIME_PERIOD&ly[rs]=TRANSACTION%2CSECTOR&vw=ov",
+        "title": "Quarterly real GDP growth",
+        "url": "https://data-explorer.oecd.org",
+        "dateAccessed": "27-03-2024",
+        "placePublication": "Paris",
+        "publisher": "OECD Org",
+        "availableFrom": "Website",
+        "type": "Website",
+        "year": "updated April 14, 2005; cited April 7, 2020"
+      }
+    ],
+    "xAxis": "Country/Organization",
+    "yAxis": "Real GDP Growth",
+    "density": 100,
+    "colors": ["#4c83ff"],
+    "data": [
+      [
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.069620302
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 1.471947257
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -3.603116404
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -0.144030607
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 9.318171238
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 8.115838384
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 30.846826832
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 9.826322493
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 1.65804832
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 10.412906749
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 1.12151665
+ },
+ {
+  "xValue": "OECD",
+  "yValue": -0.320932379
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -8.541759154
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 5.403204008
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 2.283790587
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 5.158428747
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 0.100388906
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.017861792
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": -6.256772591
+ },
+ {
+  "xValue": "G7",
+  "yValue": 0.233011061
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 7.377704086
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.717126046
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 2.073465429
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.305344589
+ },
+ {
+  "xValue": "Norway",
+  "yValue": -4.772812765
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 1.829465423
+ },
+ {
+  "xValue": "G7",
+  "yValue": 7.51061148
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 16.387237428
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 11.981868676
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 0.624853456
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 35.14841838
+ },
+ {
+  "xValue": "G7",
+  "yValue": 5.707629875
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.382200892
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 1.418975779
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 1.521820487
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.633654968
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": -3.504160139
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 0.270844089
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 2.153587043
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 10.032010111
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.275649463
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -3.343297437
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -10.363008467
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -0.284871592
+ },
+ {
+  "xValue": "Poland",
+  "yValue": -3.316215708
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.618232319
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 2.176524557
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": -1.485465273
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 10.609161298
+ },
+ {
+  "xValue": "G7",
+  "yValue": 0.387682
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 1.242991092
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.164571615
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 3.749557768
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.165494294
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -0.742135315
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.995962043
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 7.624070831
+ },
+ {
+  "xValue": "Norway",
+  "yValue": -3.524214331
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 12.496029542
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 12.683023621
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 0.368859142
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 0.22089289
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -5.58123609
+ },
+ {
+  "xValue": "United States",
+  "yValue": 10.508478256
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -3.348853807
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 3.059454738
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 0.492291968
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 22.627024435
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 8.126401203
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -0.052999788
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 0.952749257
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 3.55589549
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -2.35670035
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 0.025626435
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": -1.682714153
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 2.601086255
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 4.809015384
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -5.057555329
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -4.234001293
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -1.374133371
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -5.119087787
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 0.037231275
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 0.021394056
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -4.821901426
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 4.350122088
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -7.812586165
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 1.354797835
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 1.507208031
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.134077201
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 5.368114501
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 3.635378687
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 3.02528431
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 0.670694112
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.972007173
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.580977965
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 38.956212618
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -0.139220025
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": -1.855945267
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 4.247114304
+ },
+ {
+  "xValue": "Finland",
+  "yValue": 0.805076073
+ },
+ {
+  "xValue": "United States",
+  "yValue": 8.199564624
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 5.259526876
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.685323119
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -1.486048534
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 7.795020837
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 0.342747078
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 10.108201907
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 1.458314588
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.003745963
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 1.232978759
+ },
+ {
+  "xValue": "G20",
+  "yValue": 10.6
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 1.392890907
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 1.584891951
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.07103399
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 3.096064775
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 0.423637749
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -1.013128738
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 3.066731951
+ },
+ {
+  "xValue": "France",
+  "yValue": 4.277874386
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 0.772555752
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 4.357926648
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.036311931
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 23.561468276
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 16.130588614
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.370878016
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 5.99655521
+ },
+ {
+  "xValue": "Germany",
+  "yValue": 0.347312904
+ },
+ {
+  "xValue": "France",
+  "yValue": 5.343310166
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.107523644
+ },
+ {
+  "xValue": "United States",
+  "yValue": 0.676001298
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -6.530101753
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 0.047262551
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.763010875
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 4.690067317
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -1.888010539
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 6.131509479
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 2.366562289
+ },
+ {
+  "xValue": "G7",
+  "yValue": 0.617943273
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 20.412594214
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 1.18337895
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -4.602098699
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 2.068511886
+ },
+ {
+  "xValue": "Japan",
+  "yValue": -0.25225565
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 1.368276212
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 3.367255198
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": -0.04706
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.852091659
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -1.602916896
+ },
+ {
+  "xValue": "United States",
+  "yValue": 2.569763402
+ },
+ {
+  "xValue": "United States",
+  "yValue": 0.792745728
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 3.261105206
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 2.582562471
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -3.670845776
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 0.814969845
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 9.752822037
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 2.702795137
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -0.822266453
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 1.149546881
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 15.44167968
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.181526572
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -0.821646683
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -0.344672956
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 7.495436198
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -2.617615584
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 0.347598253
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.456501654
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 6.192462521
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 7.90143371
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 0.323617906
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 7.196765464
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 1.583525523
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": -0.218698843
+ },
+ {
+  "xValue": "France",
+  "yValue": -3.364288755
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -0.353464798
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 21.304036936
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": -3.865071141
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -2.332958327
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 21.145199006
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -1.813129798
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -7.646383057
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 0.24777298
+ },
+ {
+  "xValue": "G7",
+  "yValue": 0.197652006
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 27.668721717
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 5.462858138
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.082718882
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 3.694596596
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 3.963895514
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 4.976237505
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 3.48179055
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 17.206918289
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 0.728942452
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -1.687871858
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -3.747419626
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -1.812698163
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": -0.171236415
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 4.244973002
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -4.730917475
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.333703497
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 12.767265434
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 0.996212258
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 3.513145062
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 5.695997535
+ },
+ {
+  "xValue": "Finland",
+  "yValue": 0.042788493
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 10.833738825
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 1.287070619
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -0.192657057
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 10.439289541
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.00278
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 10.613230982
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -1.188484277
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.022824814
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -3.91406611
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 2.310779105
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -0.05948776
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 1.045305947
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 9.432770507
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 0.23895443
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 3.650714293
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 14.796411409
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -9.175301068
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 25.224455504
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -5.45527967
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 5.112433285
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.212122214
+ },
+ {
+  "xValue": "United States",
+  "yValue": 1.559377226
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 17.819341337
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -2.883347015
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -0.376925598
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 1.352129804
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -0.3335013
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 2.744662092
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 0.46415795
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": -8.214895128
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": -4.283701516
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 6.00660648
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 5.395320351
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.72691248
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 2.719821443
+ },
+ {
+  "xValue": "France",
+  "yValue": -0.855530445
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 1.026856826
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 14.441625102
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 20.72313752
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 2.786464145
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 3.307204221
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 0.090931664
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 2.557247662
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 7.138069174
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 8.099417036
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 20.061091709
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 0.240720206
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 12.935063979
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 0.718603324
+ },
+ {
+  "xValue": "France",
+  "yValue": 1.087372207
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -1.329606069
+ },
+ {
+  "xValue": "Korea",
+  "yValue": -1.41282825
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 1.691836304
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 1.591365754
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 6.124577902
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": -0.234874034
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 11.7884257
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -5.130792721
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 1.54850013
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": -0.124690944
+ },
+ {
+  "xValue": "France",
+  "yValue": 3.94169872
+ },
+ {
+  "xValue": "Norway",
+  "yValue": -0.742331629
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 4.183983427
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 1.217517973
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -0.995157493
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 5.19076926
+ },
+ {
+  "xValue": "France",
+  "yValue": 1.860008394
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -0.400761259
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.83240145
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 0.623114002
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -0.029592249
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 7.096858595
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -3.998373328
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 0.959102027
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 3.27953529
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 2.068845967
+ },
+ {
+  "xValue": "G7",
+  "yValue": -0.306015383
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 0.582906217
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -0.803551633
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 10.67510605
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -3.73570401
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 1.167170904
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 16.105477405
+ },
+ {
+  "xValue": "Poland",
+  "yValue": -0.014567074
+ },
+ {
+  "xValue": "G20",
+  "yValue": 0.7
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -4.7681812
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 4.460807188
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 2.915675097
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 13.824581243
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 11.528508378
+ },
+ {
+  "xValue": "Germany",
+  "yValue": 0.125527684
+ },
+ {
+  "xValue": "Italy",
+  "yValue": -1.390298437
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 1.30129533
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 1.834941568
+ },
+ {
+  "xValue": "Spain",
+  "yValue": -2.028127572
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 0.84773749
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": -3.385009244
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 0.508385605
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 5.702792231
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -0.378838829
+ },
+ {
+  "xValue": "Spain",
+  "yValue": -0.07157659
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 0.383953138
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 0.921044171
+ },
+ {
+  "xValue": "Poland",
+  "yValue": -0.78932298
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 2.25968968
+ },
+ {
+  "xValue": "United States",
+  "yValue": 0.360134014
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 0.349227556
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 13.062635473
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -0.03898051
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 0.576418553
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -1.461031686
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 0.683212493
+ },
+ {
+  "xValue": "Greece",
+  "yValue": -5.743135133
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 6.665582832
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": -1.882568604
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -2.946651206
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -1.116321956
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 0.70367508
+ },
+ {
+  "xValue": "Germany",
+  "yValue": 7.427226244
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 1.539637063
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 0.800078501
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 0.464617446
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 2.823185761
+ },
+ {
+  "xValue": "Canada",
+  "yValue": -2.007085702
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 1.207641032
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 0.505521973
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 12.623331881
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -1.960333706
+ },
+ {
+  "xValue": "Japan",
+  "yValue": -0.520887215
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": -1.753859186
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 4.437258445
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 29.985191991
+ },
+ {
+  "xValue": "United States",
+  "yValue": 13.611449091
+ },
+ {
+  "xValue": "Japan",
+  "yValue": -2.571829037
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 10.847309821
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 4.751689985
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 15.262946048
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -25.011898066
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -6.621109632
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -2.405384531
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 0.604950293
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 7.933329464
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 1.419603137
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -1.002870648
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 6.34089164
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 7.603001634
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": -0.169886658
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 0.510368664
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 4.947023198
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 8.821355279
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 0.337457282
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 1.389612759
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 2.66778128
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 5.236390828
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -0.287057032
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 6.110222667
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 26.498002659
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -0.794378435
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 0.406721394
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -0.230077558
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -1.414974318
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 3.043222513
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.676520737
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 0.863132932
+ },
+ {
+  "xValue": "Australia",
+  "yValue": -0.230171073
+ },
+ {
+  "xValue": "G7",
+  "yValue": 2.744637287
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 4.043237897
+ },
+ {
+  "xValue": "United States",
+  "yValue": 2.100157324
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 5.682632541
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 5.54139013
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -0.648067533
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 13.726168379
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 5.858394657
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 4.424804266
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": -4.554945889
+ },
+ {
+  "xValue": "Italy",
+  "yValue": -0.267560777
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.792189382
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -2.270741465
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -7.225554603
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 5.434769014
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.355335062
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 1.790529117
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 1.664713587
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 9.147738918
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 16.423464452
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -0.387268702
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.061607423
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 8.233857198
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 5.350875669
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.127892068
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 20.140094798
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 14.826441046
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -0.828382853
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.635919632
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 8.149068416
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 3.856797412
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 2.865767573
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 2.99402851
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 0.399575276
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 8.660567026
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 1.897150636
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 17.731974062
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 18.530177982
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.554035116
+ },
+ {
+  "xValue": "United States",
+  "yValue": 2.659861578
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 6.646797509
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 18.599043284
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 5.991772492
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -6.461890086
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.347149664
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 14.674825316
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -10.268709493
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 1.910466688
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": -5.769234879
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 5.195002425
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -1.839015596
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": -5.924083645
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 2.66075388
+ },
+ {
+  "xValue": "United States",
+  "yValue": 1.131543523
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 14.526092936
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 1.896242879
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": -4.305782727
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 30.290972989
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 5.59566354
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 8.339662357
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 11.534576535
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 2.39608362
+ },
+ {
+  "xValue": "Japan",
+  "yValue": -0.163401414
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -6.315025484
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": -15.6287437
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 11.097381558
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 0.327220227
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -0.235725326
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 0.057991522
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 2.029284242
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 13.330912202
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -7.655289813
+ },
+ {
+  "xValue": "Poland",
+  "yValue": -0.840956531
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 0.094375567
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 2.09677548
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 1.308006967
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 1.193619891
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 17.781059877
+ },
+ {
+  "xValue": "Canada",
+  "yValue": -0.476536706
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 8.039453868
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -1.635541797
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": -16.144789154
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 4.04844754
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 4.684784836
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": -1.15388375
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.768935558
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.641438518
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -2.219084854
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 0.520023475
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 1.284485526
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 24.175167277
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": -3.832510837
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 0.646077282
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 0.927634234
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 4.041176542
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": -0.784689819
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -15.19423386
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 2.877520084
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 0.48193262
+ },
+ {
+  "xValue": "Germany",
+  "yValue": 0.23673873
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -1.872266975
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.052434391
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -22.446614099
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.265239962
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 1.311630972
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.347645638
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 0.976915898
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 1.781321913
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 0.742497624
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 1.875148693
+ },
+ {
+  "xValue": "United States",
+  "yValue": 0.043598992
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -0.772580388
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 2.88752308
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 9.25404465
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 1.089696466
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -0.002602792
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 14.985642092
+ },
+ {
+  "xValue": "Italy",
+  "yValue": -0.135518827
+ },
+ {
+  "xValue": "United States",
+  "yValue": 8.298525386
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 0.268166391
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 1.455759783
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -1.718779659
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 4.369938703
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 2.508890314
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 8.210031342
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 7.139597006
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 0.927445257
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 0.057022678
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -0.850691752
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 4.010681814
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 2.197018481
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.516434863
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 18.217405416
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -0.120179631
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -0.814812246
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -8.085640282
+ },
+ {
+  "xValue": "France",
+  "yValue": 1.850361227
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 11.532332582
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": -2.223120255
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 1.420223458
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 9.926156517
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": -2.769534582
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 1.075470135
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.150101535
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 4.064958766
+ },
+ {
+  "xValue": "France",
+  "yValue": -2.266673755
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 0.536861482
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 3.910469738
+ },
+ {
+  "xValue": "Italy",
+  "yValue": -0.461738478
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 9.13845504
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 8.624977084
+ },
+ {
+  "xValue": "Finland",
+  "yValue": 4.137299126
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.370694394
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 3.376993997
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 3.769678998
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 4.803368558
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 0.866509243
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 0.477570309
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 17.77924653
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 3.306460168
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -1.594471109
+ },
+ {
+  "xValue": "G7",
+  "yValue": 1.54670134
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 1.187073341
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": -10.632477677
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 11.41775712
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 6.130310236
+ },
+ {
+  "xValue": "United States",
+  "yValue": 4.378073693
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -0.308883594
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 0.290762755
+ },
+ {
+  "xValue": "Austria",
+  "yValue": -1.448882417
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 0.720573194
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -1.959324945
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 9.0991936
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 1.655243315
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -0.004240319
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": -3.819324387
+ },
+ {
+  "xValue": "G7",
+  "yValue": 0.323363617
+ },
+ {
+  "xValue": "G7",
+  "yValue": 1.8283797
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 10.843432241
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 1.718764591
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 5.382337755
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 2.456923187
+ },
+ {
+  "xValue": "Australia",
+  "yValue": -3.167009238
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 14.676377307
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 3.198467522
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.481198944
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 2.859411662
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.751119356
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 1.673087197
+ },
+ {
+  "xValue": "United States",
+  "yValue": 2.795489662
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 1.210371566
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": -7.22093096
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 9.45015305
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 4.695820262
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -8.99823003
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -3.497990513
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -8.478016633
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.28494561
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -1.810891787
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 1.506026454
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": -0.641595264
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 1.287081897
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 2.855879575
+ },
+ {
+  "xValue": "G7",
+  "yValue": 6.397495179
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -2.063089195
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 4.862442423
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 13.50729184
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 1.477501679
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.869331455
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": -2.486734324
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 1.255669191
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -5.382629821
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": -7.950289228
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 14.381671662
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 0.561755045
+ },
+ {
+  "xValue": "G7",
+  "yValue": -1.795647763
+ },
+ {
+  "xValue": "Australia",
+  "yValue": -3.361067696
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 2.420177295
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": -10.517819995
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 0.935183664
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 3.376727771
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -2.87072913
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 3.890826372
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 8.294957532
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 2.015886177
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 0.35396828
+ },
+ {
+  "xValue": "Portugal",
+  "yValue": 3.023350763
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 7.032939992
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 8.227230597
+ },
+ {
+  "xValue": "G7",
+  "yValue": 1.570975148
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 1.633312296
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 5.168348455
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 1.178442642
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 19.137211178
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 0.116045603
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 9.997410604
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 13.813139256
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -2.85789775
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 17.087964301
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 0.862943681
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 7.580768086
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -1.804296369
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 1.670032133
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 4.880160749
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 1.110190731
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 6.793383677
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 30.911653537
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.024745845
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 2.374169871
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 22.589943568
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 4.185165072
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -5.876234927
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 1.706257982
+ },
+ {
+  "xValue": "Canada",
+  "yValue": -1.529080076
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -0.669865798
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.231730528
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 0.286995808
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 3.561289029
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 5.567157286
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 11.861639553
+ },
+ {
+  "xValue": "G20",
+  "yValue": 3.2
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": -1.629814164
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.110241
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -5.365500026
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 8.573916718
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 2.447325696
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 7.841683743
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -2.239908419
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 2.118493403
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 8.562022775
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": -3.516394553
+ },
+ {
+  "xValue": "OECD Europe",
+  "yValue": 0.697261705
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -0.29599095
+ },
+ {
+  "xValue": "United States",
+  "yValue": 3.087792572
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -2.51594385
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 3.05877709
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": -12.804915596
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 5.054398317
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 0.940541081
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 4.649182071
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 2.513767676
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 1.040186428
+ },
+ {
+  "xValue": "Australia",
+  "yValue": -0.277368888
+ },
+ {
+  "xValue": "France",
+  "yValue": 0.71998236
+ },
+ {
+  "xValue": "Switzerland",
+  "yValue": 1.577247529
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 6.966381133
+ },
+ {
+  "xValue": "Canada",
+  "yValue": 0.260915899
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 0.573259466
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 3.015763253
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 6.317229027
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": -0.076362846
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 20.210074988
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.681463
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 10.91558712
+ },
+ {
+  "xValue": "United States",
+  "yValue": 4.677591755
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 0.273933159
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 6.191038995
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 3.541203221
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 9.539332448
+ },
+ {
+  "xValue": "Chile",
+  "yValue": -0.892896875
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 5.728717177
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.8476027
+ },
+ {
+  "xValue": "Latvia",
+  "yValue": 1.630479087
+ },
+ {
+  "xValue": "Finland",
+  "yValue": 9.623089479
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 3.683127535
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 10.926996204
+ },
+ {
+  "xValue": "Sweden",
+  "yValue": 0.676514214
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 2.040735221
+ },
+ {
+  "xValue": "United States",
+  "yValue": 0.734391014
+ },
+ {
+  "xValue": "Chile",
+  "yValue": 12.363537698
+ },
+ {
+  "xValue": "Korea",
+  "yValue": 0.182215447
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": 0.157362991
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 18.059631293
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 9.795128584
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -4.62962963
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": -6.375150953
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 1.739471385
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -0.315564071
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": 0.603358702
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 0.23047445
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": -1.924328205
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 2.229023114
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": -2.238438445
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": -1.729443771
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 7.792712538
+ },
+ {
+  "xValue": "Canada",
+  "yValue": -0.426378268
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 5.010576416
+ },
+ {
+  "xValue": "G7",
+  "yValue": 5.199658708
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 23.42320799
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -0.586810242
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": -3.101514977
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -0.207623926
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": 1.046104139
+ },
+ {
+  "xValue": "Spain",
+  "yValue": -5.096449112
+ },
+ {
+  "xValue": "Colombia",
+  "yValue": -4.076807892
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": -2.518587893
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 17.265522185
+ },
+ {
+  "xValue": "Korea",
+  "yValue": -0.917296036
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": 19.607452752
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": 1.274555014
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -9.563178677
+ },
+ {
+  "xValue": "OECD",
+  "yValue": -1.101685818
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 19.115218672
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": 0.173406395
+ },
+ {
+  "xValue": "Greece",
+  "yValue": -2.609076771
+ },
+ {
+  "xValue": "Norway",
+  "yValue": 5.612159945
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 2.150098619
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 9.799173779
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -12.873317691
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 14.306333233
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 11.808739881
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 12.69683113
+ },
+ {
+  "xValue": "Estonia",
+  "yValue": -0.724203043
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 6.232261216
+ },
+ {
+  "xValue": "Netherlands",
+  "yValue": 1.867175599
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 1.826247241
+ },
+ {
+  "xValue": "Czechia",
+  "yValue": -0.21135738
+ },
+ {
+  "xValue": "Türkiye",
+  "yValue": 24.965456847
+ },
+ {
+  "xValue": "Korea",
+  "yValue": -1.656544253
+ },
+ {
+  "xValue": "European Union (27 countries from 01\/02\/2020)",
+  "yValue": 0.6198934
+ },
+ {
+  "xValue": "Japan",
+  "yValue": 0.128463846
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 1.088416021
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 1.98382046
+ },
+ {
+  "xValue": "Germany",
+  "yValue": 0.287969492
+ },
+ {
+  "xValue": "Canada",
+  "yValue": -0.970483876
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 7.29763991
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 0.555997419
+ },
+ {
+  "xValue": "Euro area (20 countries)",
+  "yValue": 6.620068586
+ },
+ {
+  "xValue": "G7",
+  "yValue": -0.630484106
+ },
+ {
+  "xValue": "Italy",
+  "yValue": 0.389864749
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 0.155081577
+ },
+ {
+  "xValue": "Denmark",
+  "yValue": 1.098662314
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 11.968697642
+ },
+ {
+  "xValue": "Germany",
+  "yValue": -1.681785916
+ },
+ {
+  "xValue": "OECD",
+  "yValue": 8.159755619
+ },
+ {
+  "xValue": "Spain",
+  "yValue": 1.165110164
+ },
+ {
+  "xValue": "Iceland",
+  "yValue": -0.289693346
+ },
+ {
+  "xValue": "NAFTA",
+  "yValue": 0.258603251
+ },
+ {
+  "xValue": "Israel",
+  "yValue": 1.712363812
+ },
+ {
+  "xValue": "Luxembourg",
+  "yValue": -9.079506266
+ },
+ {
+  "xValue": "Greece",
+  "yValue": 0.355644657
+ },
+ {
+  "xValue": "G7",
+  "yValue": 2.342282987
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 2.765862812
+ },
+ {
+  "xValue": "Lithuania",
+  "yValue": 0.826552333
+ },
+ {
+  "xValue": "Hungary",
+  "yValue": 4.999933833
+ },
+ {
+  "xValue": "G7",
+  "yValue": 5.964337718
+ },
+ {
+  "xValue": "Australia",
+  "yValue": 0.23952273
+ },
+ {
+  "xValue": "Mexico",
+  "yValue": 19.013078398
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 0.347776918
+ },
+ {
+  "xValue": "New Zealand",
+  "yValue": -0.092257572
+ },
+ {
+  "xValue": "Israel",
+  "yValue": -5.619926983
+ },
+ {
+  "xValue": "Austria",
+  "yValue": 1.255482782
+ },
+ {
+  "xValue": "Slovenia",
+  "yValue": 1.239526502
+ },
+ {
+  "xValue": "Finland",
+  "yValue": -0.495678035
+ },
+ {
+  "xValue": "Belgium",
+  "yValue": 1.484547367
+ },
+ {
+  "xValue": "France",
+  "yValue": -0.872109958
+ },
+ {
+  "xValue": "Costa Rica",
+  "yValue": 7.574904679
+ },
+ {
+  "xValue": "Slovak Republic",
+  "yValue": 3.053664967
+ },
+ {
+  "xValue": "United Kingdom",
+  "yValue": 7.460646107
+ },
+ {
+  "xValue": "Poland",
+  "yValue": 9.711023392
+ }
+]
+    ]
+  }
+}
